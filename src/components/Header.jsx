@@ -16,6 +16,7 @@ function Header(){
     backgroundColor: 'rgba(246,246,246,1)',
     width:'100%',
     position:'absolute',
+    fontFamily: "'Modak', cursive"
 
   }
 
@@ -23,9 +24,13 @@ function Header(){
     padding: '50px',
     position:'absolute',
     top:'20px',
-    right:'300px'
-
-  }
+    right:'300px',
+    letterSpacing: '2px',
+    fontSize: '2rem',
+    color: 'rgba(92,157,176,1)',
+    textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'
+    
+    }
   return (
     <div style={nav_bar}>
     <img style={headerLogo}  src={logo}></img>

@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css'
 import { Switch, Route } from 'react-router-dom';
 import Header from './Header';
-import background from './background.jpg'
+import background from './background.jpg';
+import Welcome from './Welcome'
 
 
 function App(){
@@ -14,8 +15,9 @@ function App(){
   }
   return (
     <div >
-<Header/>
-<img style={background}  src='https://cdn.wallpapersafari.com/93/58/ySgPwF.jpg'></img>
+    <Header/>
+    <img style={background}  src='https://cdn.wallpapersafari.com/93/58/ySgPwF.jpg'></img>
+    <Welcome/>
     </div>
   );
 }
