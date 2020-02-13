@@ -2,13 +2,9 @@ import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import logo from './logo.png';
-import './App.css'
-
-
-
+import './App.css';
 
 function Welcome(){
-
 
   const welcomeText = {
 

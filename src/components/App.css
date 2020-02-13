@@ -1,3 +1,29 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+body {
+  margin: 0;
+}
+
+
+.gnomeDiv {
+
+  flex-flow: row wrap;
+  width: 100%;
+  animation: fade-in 5s, slide-down 4s;
+}
+.gnomeDiv p{
+text-align: right;
+padding-right: 10px;
+}
+
+@keyframes slide-down {
+  0% {margin-top: -2000px }
+  100% { margin-top: 0px}
+}
+
+@keyframes fade-in {
+  0% { opactiy: 0 }
+  100% { opacity: .9 }
+}
